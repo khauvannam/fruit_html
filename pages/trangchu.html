@@ -1,10 +1,463 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Trang chủ</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="stylesheet" href="../public/trangchu/trangchu.css" />
+  </head>
+  <body>
+    <div class="text-center m-3">
+      <img
+        class="img-fluid"
+        src="../public/logo.png"
+        alt="logo"
+        width="272px"
+        height="122px"
+      />
+    </div>
+    <!-- Navbar -->
+    <nav class="bg-color2 navbar navbar-expand-lg navbar-dark">
+      <div class="container">
+        <ul class="navbar-nav m-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="./trangchu.html">Trang Chủ</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./gioithieu.html">Giới thiệu</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./sanpham_rau.html">Sản phẩm</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./blog.html">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./hdmh.html">Hướng dẫn mua hàng</a>
+          </li>
+          <li class="nav-item me-5">
+            <a class="nav-link" href="./lienhe.html">Liên hệ</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./giohang.html"
+              ><i class="fa-solid fa-cart-shopping"></i
+            ></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./dangnhap.html"
+              ><i class="fa-solid fa-user"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
 
-</body>
+    <!-- Banner -->
+    <div class="container-fluid p-0">
+      <div class="banner">
+        <img
+          class="img-fluid w-100"
+          src="../public/trangchu/banner.jpg"
+          alt="Banner"
+          style="transform: scaleX(-1)"
+        />
+      </div>
+    </div>
+    <div class="container mt-5">
+      <!-- Phần giới thiệu -->
+      <div class="row align-items-center">
+        <!-- Text giới thiệu -->
+        <div class="col-md-5">
+          <h2>Về Organic Food</h2>
+          <p>
+            Organic Food là thực phẩm hữu cơ được sản xuất bằng phương pháp và
+            tiêu chuẩn cao năng. Thực phẩm hữu cơ nội dung luôn hướng đến nuôi
+            trồng và bảo tồn đa dạng sinh học.
+          </p>
+          <p>
+            Trong sản xuất nông nghiệp hữu cơ, Organic Food hạn chế sử dụng một
+            số hóa chất phụ gia thực phẩm tăng trưởng để đảm bảo chất lượng.
+          </p>
+        </div>
+        <!-- Hình minh họa -->
+        <div class="col-md-7 text-center">
+          <img
+            class="img-fluid"
+            src="../public/trangchu/capture.png"
+            alt="Organic Illustration"
+          />
+        </div>
+      </div>
+
+      <!-- Phần danh mục -->
+      <h2>Oraginc food có gì?</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <!-- Hình ảnh -->
+          <div class="image-container">
+            <img
+              class="img-fluid"
+              src="../public/trangchu/traicay.jpg"
+              alt="Hình Trái Cây"
+              class="img-fluid"
+            />
+          </div>
+
+          <!-- Ô thông tin -->
+          <div class="info-box">
+            <h4>TRÁI CÂY</h4>
+            <button class="btn btn-custom">XEM THÊM</button>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <!-- Hình ảnh -->
+          <div class="image-container">
+            <img
+              class="img-fluid"
+              src="../public/trangchu/raucu.png"
+              alt="Hình Trái Cây"
+              class="img-fluid"
+            />
+          </div>
+
+          <!-- Ô thông tin -->
+          <div class="info-box">
+            <h4>Rau củ</h4>
+            <button class="btn btn-custom">XEM THÊM</button>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <!-- Hình ảnh -->
+          <div class="image-container">
+            <img
+              class="img-fluid"
+              src="../public/trangchu/ngucoc.jpg"
+              alt="Hình Trái Cây"
+              class="img-fluid"
+            />
+          </div>
+
+          <!-- Ô thông tin -->
+          <div class="info-box">
+            <h4>Ngũ cốc - hạt</h4>
+            <button class="btn btn-custom">XEM THÊM</button>
+          </div>
+        </div>
+      </div>
+      <!-- Phần 1: Tại sao nên dùng sản phẩm Organic Food -->
+      <h2>Tại sao nên dùng sản phẩm của Organic Food?</h2>
+      <div class="row text-center">
+        <!-- Cột 1 -->
+        <div class="col-md-4">
+          <div style="height: 178px">
+            <img
+              class="img-fluid"
+              src="../public/trangchu/plane.png"
+              alt="plane"
+            />
+          </div>
+          <p>
+            Rau sạch đầu tiên và duy nhất mà bạn có thể truy xuất nguồn gốc chi
+            tiết, biết chính xác gói rau được trồng như thế nào, từ khi làm đất,
+            gieo hạt đến khi thu hoạch, thông qua hệ thống Nhật ký điện tử.
+          </p>
+        </div>
+        <!-- Cột 2 -->
+        <div class="col-md-4">
+          <div style="height: 178px">
+            <img
+              class="img-fluid"
+              src="../public/trangchu/farmer.png"
+              alt="farmer"
+            />
+          </div>
+          <p>
+            Rau sạch đầu tiên và duy nhất tại Việt Nam có tem chống giả trong
+            từng gói rau. Dù bạn mua rau sạch Organic ở đâu, chỉ cần kiểm tra
+            tem chống giả có hiệu lực, đó chắc chắn không phải rau bị trà trộn.
+          </p>
+        </div>
+        <!-- Cột 3 -->
+        <div class="col-md-4">
+          <div style="height: 178px">
+            <img
+              class="img-fluid"
+              src="../public/trangchu/achive.png"
+              alt="achive"
+            />
+          </div>
+          <p>
+            Được trồng theo Quy trình an toàn của Bộ Nông nghiệp và Bộ Y tế ban
+            hành, an toàn cho bạn và bền vững cho môi trường.
+          </p>
+        </div>
+      </div>
+
+      <!-- Phần 2: Organic Food phát triển như thế nào -->
+      <h2>Organic Food phát triển như thế nào?</h2>
+      <div class="row text-center">
+        <!-- Cột 1 -->
+        <div class="col-md-4 d-flex flex-column align-items-center">
+          <div class="icon mb-5">
+            <img
+              class="img-fluid"
+              src="../public/trangchu/icon1.png"
+              alt="icon"
+            />
+          </div>
+          <p>Phát triển kỹ thuật sản xuất</p>
+        </div>
+        <!-- Cột 2 -->
+        <div class="col-md-4 d-flex flex-column align-items-center">
+          <div class="icon mb-5">
+            <img
+              class="img-fluid"
+              src="../public/trangchu/icon2.png"
+              alt="icon"
+            />
+          </div>
+          <p>Chuyển giao công nghệ - kỹ thuật</p>
+        </div>
+        <!-- Cột 3 -->
+        <div class="col-md-4 d-flex flex-column align-items-center">
+          <div class="icon mb-5">
+            <img
+              class="img-fluid"
+              src="../public/trangchu/icon3.png"
+              alt="icon"
+            />
+          </div>
+          <p>Phát triển Nông nghiệp Thông minh</p>
+        </div>
+      </div>
+      <!-- blog -->
+      <h2>Blog của Organic Food</h2>
+      <h5>Hãy cùng chúng tôi chế biến những món ăn tốt cho sức khỏe</h5>
+      <div class="row align-items-center">
+        <!-- Card 1 -->
+        <div class="col-md-5 image-container">
+          <img
+            class="img-fluid"
+            src="../public/trangchu/yorurttraicay.jpg"
+            alt="Yogurt trái cây"
+          />
+        </div>
+        <div class="col-md-7">
+          <div class="layout-right"></div>
+          <div class="food-card right">
+            <h1>Yogurt trái cây</h1>
+            <p>
+              Chút vị ngọt ngào của các loại trái cây, chút men chua của sữa
+              chua hoà nguyện với nhau...nhìn dịu dàng...quyến rũ....lắm đa...
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row align-items-center">
+        <!-- Card 2 -->
+        <div class="col-md-5 order-md-2 image-container">
+          <img
+            class="img-fluid"
+            src="../public/trangchu/raucuxaothit.jpg"
+            alt="Rau củ xào thịt"
+          />
+        </div>
+        <div class="col-md-7 order-md-1">
+          <div class="layout-left"></div>
+          <div class="food-card left">
+            <h1>Rau củ xào thịt</h1>
+            <p>
+              Thịt xào rau củ vừa chứa nhiều chất dinh dưỡng vừa tạo cảm giác
+              ngon miệng, không bị ngấy là món ăn được nhiều gia đình Việt yêu
+              thích. Vậy, bạn đã biết cách chế biến món thịt xào rau củ thập cẩm
+              chưa?
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row align-items-center">
+        <!-- Card 3 -->
+        <div class="col-md-5 image-container">
+          <img
+            class="img-fluid"
+            src="../public/trangchu/tratraicay.jpg"
+            alt="Trà trái cây"
+          />
+        </div>
+        <div class="col-md-7">
+          <div class="layout-right"></div>
+          <div class="food-card right">
+            <h1>Trà trái cây</h1>
+            <p>
+              Trà trái cây không chỉ giúp bạn sảng khoái tinh thần mà còn cung
+              cấp rất nhiều vitamin và khoáng chất, đặc biệt khá tốt cho người
+              muốn giảm cân. Trà trái cây giúp giải nhiệt và sẽ cung cấp cho bạn
+              nguồn vitamin thiết yếu cho một ngày làm việc hiệu quả.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row align-items-center">
+        <!-- Card 4 -->
+        <div class="col-md-5 order-md-2 image-container">
+          <img
+            class="img-fluid"
+            src="../public/trangchu/raucuxaothit.jpg"
+            alt="Canh rau củ"
+          />
+        </div>
+        <div class="col-md-7 order-md-1">
+          <div class="layout-left"></div>
+          <div class="food-card left">
+            <h1>Canh rau củ</h1>
+            <p>
+              Với cách nấu súp rau củ cắt hạt lựu thế này thì người lớn tuổi
+              trong gia đình và các cháu nhỏ cũng rất dễ ăn. Rau củ cắt hạt lựu
+              lại nhanh chín, thích hợp cho những ai bận rộn.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- huong dan mua hang -->
+      <h2>Hướng dẫn mua hàng</h2>
+      <div class="row">
+        <div class="col-md-3 col-sm-12 d-flex flex-column align-items-center">
+          <img src="../public/trangchu/search.jpg" alt="search" />
+          <div
+            style="
+              font-weight: medium;
+              width: 263px;
+              text-align: center;
+              margin-top: 15px;
+            "
+          >
+            Tìm kiếm và lựa chọn sản phẩm mong muốn
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-12 d-flex flex-column align-items-center">
+          <img src="../public/trangchu/cart.jpg" alt="cart" />
+          <div
+            style="
+              font-weight: medium;
+              width: 263px;
+              text-align: center;
+              margin-top: 15px;
+            "
+          >
+            Thêm sản phẩm vào giỏ hàng
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-12 d-flex flex-column align-items-center">
+          <img src="../public/trangchu/computer.jpg" alt="computer" />
+          <div
+            style="
+              font-weight: medium;
+              width: 263px;
+              text-align: center;
+              margin-top: 15px;
+            "
+          >
+            Điền các thông tin cần thiết
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-12 d-flex flex-column align-items-center">
+          <img src="../public/trangchu/delivery.jpg" alt="delivery" />
+          <div
+            style="
+              font-weight: medium;
+              width: 263px;
+              text-align: center;
+              margin-top: 15px;
+            "
+          >
+            Organic Food giao hàng tận nơi theo yêu cầu của khách hàng
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer -->
+    <footer class="footer mt-5">
+      <div class="footer-overlay"></div>
+      <div class="container">
+        <div class="row">
+          <!-- First Column -->
+          <div class="col-md-4 col-sm-12 footer-column">
+            <h3>SAIGON ORGANIC FOOD</h3>
+            <p>
+              Organic Food farm cam kết chất lượng an toàn vệ sinh thực phẩm và
+              khẳng định sự tồn tại của chúng tôi. "Uy Tín" được Organic Food
+              đặt lên hàng đầu, hợp tác, chia sẻ, tin cậy, gắn bó lâu dài.
+            </p>
+          </div>
+
+          <!-- Second Column -->
+          <div class="col-md-4 col-sm-12 footer-column">
+            <h3>ĐỊA CHỈ</h3>
+            <ul>
+              <li>19/12K, Ấp Thái Tử, Xã Thới Tam Thôn, Huyện Hóc Môn</li>
+              <li><strong>Phone:</strong> 0865 222 9868</li>
+              <li><strong>Open Time:</strong></li>
+              <li class="ms-5">Thứ 2-6: 8:00 - 20:00</li>
+              <li class="ms-5">Thứ 7-CN: 10:00 - 16:00</li>
+            </ul>
+          </div>
+
+          <!-- Third Column -->
+          <div class="col-md-4 col-sm-12 footer-column">
+            <h3>CHI NHÁNH</h3>
+            <ul>
+              <li><strong>Chi nhánh phân phối Tp Hồ Chí Minh:</strong></li>
+              <li>
+                Cơ sở 1: 19/12K, Ấp Thái Tử, Xã Thới Tam Thôn, Huyện Hóc Môn
+              </li>
+              <li><strong>Chi nhánh phân phối Hà Nội:</strong></li>
+              <li>
+                Địa chỉ: A11, Ngõ 100, Đường Trung Kính, Phường Yên Hòa, Quận
+                Cầu Giấy
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Map Section -->
+        <div class="row mt-4">
+          <div class="col-12 text-center footer-map">
+            <img
+              class="img-fluid"
+              src="../public/trangchu/map.png"
+              alt="Map of Saigon Organic Food"
+            />
+          </div>
+        </div>
+
+        <!-- Footer Bottom -->
+        <div class="row">
+          <div class="col-12 footer-bottom">Copyright © 2016 hvthuyvu.vn</div>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+    integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"
+  ></script>
 </html>

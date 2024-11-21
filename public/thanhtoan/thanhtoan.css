@@ -1,0 +1,80 @@
+/* banner */
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-image: url("./banner.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.8;
+  height: 200px;
+  span {
+    font-size: 28px;
+    background-color: #587330;
+    color: white;
+    padding: 10px 50px;
+  }
+}
+.loaithe {
+  padding: 19px 0;
+}
+.form-check-label {
+  color: #587330;
+  font: bold;
+}
+.form-check-input {
+  border: 1px solid #587330;
+}
+.form-container {
+  border: 1px solid #587330;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 20px 0;
+}
+.form-label {
+  color: #587330;
+  font-weight: bold;
+}
+.form-control {
+  border: 1px solid #587330;
+}
+.form-title {
+  font-weight: medium;
+  margin-bottom: 20px;
+}
+.btn-submit {
+  background-color: #587330;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+}
+.btn-submit:hover {
+  background-color: #587330;
+}
+.cart-container {
+  border: 1px solid #587330;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 20px 0;
+}
+.cart-title {
+  font-weight: bold;
+  color: #587330;
+  margin-bottom: 10px;
+}
+hr {
+  border: 2px solid #587330;
+}
+.name,
+.price {
+  color: #828282;
+  margin-bottom: 10px;
+}
+.cart-total {
+  font-size: 24px;
+  color: #587330;
+  font-weight: bold;
+  text-align: right;
+}
